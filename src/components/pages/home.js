@@ -106,25 +106,26 @@ const Home = (props) => {
 
                 </div>
                 <div className="row" id="tech-row">
-                    <div className="row" id="tech-row">
+                    <div className="row" >
 
                         <table>
-                            <tr>
-                                <td>
-                                    <h4>Languages:</h4>
-                                </td>
-                                <td>
-                                    SQL, HTML, CSS, JavaScript, jQuery, JSON, API, AJAX, Handlebars, React.js,
-                                                        Node.js,
-                                                    Express, MongoDB, Mongoose.js
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <h4>Languages:</h4>
+                                    </td>
+                                    <td>
+                                        SQL, HTML, CSS, JavaScript, jQuery, JSON, API, AJAX, Handlebars, React.js,
+                                                            Node.js,
+                                                        Express, MongoDB, Mongoose.js
 
 </td>
-                            </tr>
-                            <tr>
-                                <td><h4>Applications:</h4></td>
-                                <td>Visual Studio Code, Slack, Word, Excel, PowerPoint, Adobe, Git, Heroku</td>
-                            </tr>
-
+                                </tr>
+                                <tr>
+                                    <td><h4>Applications:</h4></td>
+                                    <td>Visual Studio Code, Slack, Word, Excel, PowerPoint, Adobe, Git, Heroku</td>
+                                </tr>
+                            </tbody>
                         </table>
 
 
@@ -163,58 +164,58 @@ const Home = (props) => {
                         <div>
                             <img className="d-block w-100" src={newsstand}
                                 alt="First slide" />
-                            <div id="portfolio-picture-label1" className="centered"><a class="iris-text"
+                            <div id="portfolio-picture-label1" className="centered"><a className="iris-text"
                                 href="https://mlfiii.github.io/Week7Project1/" target="_blank"
                                 rel="noopener noreferrer">The News Stand</a><a
                                     href="https://github.com/mlfiii/Week7Project1" target="_blank"
-                                    rel="noopener noreferrer"> <i class="fa fa-github"
+                                    rel="noopener noreferrer"> <i className="fa fa-github"
                                     ></i></a>
                             </div>
                         </div>
                         <div>
-                            <img class="d-block w-100" src={tracksnax}
+                            <img className="d-block w-100" src={tracksnax}
                                 alt="First slide" />
 
-                            <div id="portfolio-picture-label1" class="centered"><a class="iris-text"
+                            <div id="portfolio-picture-label1" className="centered"><a className="iris-text"
                                 href="https://tracksnax.herokuapp.com/inventory" target="_blank" rel="noopener noreferrer">TrackSnax</a><a
-                                    href="https://github.com/VartanyanE/project-2" target="_blank" rel="noopener noreferrer"> <i class="fa fa-github"
+                                    href="https://github.com/VartanyanE/project-2" target="_blank" rel="noopener noreferrer"> <i className="fa fa-github"
                                     ></i></a>
                             </div>
                         </div>
                         <div>
-                            <img class="d-block w-100" src={passwordgenerator}
+                            <img className="d-block w-100" src={passwordgenerator}
                                 alt="First slide" />
 
-                            <div id="portfolio-picture-label1" class="centered"><a class="iris-text"
+                            <div id="portfolio-picture-label1" className="centered"><a className="iris-text"
                                 href="https://mlfiii.github.io/password-generator/" target="_blank"
                                 rel="noopener noreferrer">Password
                                     Generator</a><a href="https://github.com/mlfiii/password-generator"> <i
-                                    class="fa fa-github"></i></a>
+                                    className="fa fa-github"></i></a>
                             </div>
                         </div>
                         <div>
-                            <img class="d-block w-100" src={codingquiz}
+                            <img className="d-block w-100" src={codingquiz}
                                 alt="First slide" />
 
-                            <div id="portfolio-picture-label1" class="centered"><a class="iris-text"
+                            <div id="portfolio-picture-label1" className="centered"><a className="iris-text"
                                 href="https://mlfiii.github.io/CodeQuiz/" target="_blank"
                                 rel="noopener noreferrer">Code Quiz</a> <a
                                     href="https://github.com/mlfiii/CodeQuiz" target="_blank"
-                                    rel="noopener noreferrer"> <i class="fa fa-github"
+                                    rel="noopener noreferrer"> <i className="fa fa-github"
                                     ></i></a>
                             </div>
 
                         </div>
                         <div>
-                            <img class="d-block w-100" src={weatherdashboard}
+                            <img className="d-block w-100" src={weatherdashboard}
                                 alt="First slide" />
 
-                            <div id="portfolio-picture-label1" class="centered"><a class="iris-text"
+                            <div id="portfolio-picture-label1" className="centered"><a className="iris-text"
                                 href="https://mlfiii.github.io/WeatherDashboard/" target="_blank"
                                 rel="noopener noreferrer">
                                 Weather Dashboard</a><a href="https://github.com/mlfiii/WeatherDashboard" target="_blank"
                                     rel="noopener noreferrer"> <i
-                                        class="fa fa-github"></i></a>
+                                        className="fa fa-github"></i></a>
                             </div>
 
                         </div>
@@ -256,7 +257,7 @@ const Home = (props) => {
 
                             </div> <div id="card-links" className="text-center">
                                 <a href="tel:1-909-747-2272"
-                                    class="text-darkgray"><i className="fa fa-mobile-phone"
+                                    className="text-darkgray"><i className="fa fa-mobile-phone"
                                     ></i></a> <span className="text-darkgray"></span>
                                 <a href="mailto:martin@funches.org?Subject=Resume" className="email"><i
                                     className="fa fa-envelope" ></i></a>

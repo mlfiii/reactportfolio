@@ -118,6 +118,12 @@ h4{
 a {
     /*Remove the underline from the hyperlinks*/
     text-decoration: none;
+ 
+  }
+
+  .fa{
+
+    margin: 10px;
   }
 
   .carousel-control-next-icon{
