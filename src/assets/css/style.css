@@ -1,0 +1,312 @@
+/* Set how much of the viewable space is taken up */
+html,
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0px 0px 0px 0px;
+}
+/* Set how much of the viewable space is taken by the container
+and ensure that the padding is taken away. */
+#page-container {
+  height: 100vh;
+  width: 100%;
+  padding: 0px 0px 0px 0px;
+}
+
+/* Set all attributes that apply to the full header area. */
+.header {
+  /*Main header background color: #ffffff*/
+  background: #ffffff;
+  color: white;
+  padding: 0px 0px 0px 0px;
+  margin-top: 0;
+  /*Main header border color: #cccccc*/
+  border-style: solid;
+  border-color: #cccccc;
+  border-width: 1px;
+}
+/* Set all attributes that apply to the header name area only. */
+#header-name {
+  padding: 10px 0px 0px 0px;
+}
+/* Set all attributes that apply to the header buttons area only. */
+#header-buttons {
+  padding-top: 25px;
+  height: 70px;
+  float: left;
+  text-align: right;
+}
+/*Ensure that there are no margins on the roews.*/
+.row {
+  margin: 0px 0px 0px 0px;
+}
+/*Content items*/
+#content-row {
+  background: url(../images/white-waves/white-waves.png) repeat top left;
+  height: auto;
+}
+#content {
+  color: white;
+  background-color: white;
+  margin: 10px 8.33% 50px 8.33%;
+  height: fit-content;
+  position: relative;
+  padding-top: 10px;
+  /*Main content border color: #dddddd*/
+  border: solid #dddddd;
+  border-width: 1px 1px 1px 1px;
+}
+
+/* .left-side-format {
+  height: auto;
+} */
+
+/*Footer items*/
+
+.site-footer-formats {
+  /*Footer background color: #666666*/
+  background-color: #666666;
+  text-align: center;
+  border-top: 8px solid  #2774AE;
+  /*The entire content and the main section content area is 960px wide.*/
+  width: 100%;
+  /* padding-top: 35px; */
+  height: fit-content;
+  position: fixed;
+  bottom: 0;
+}
+/*Various formatting items*/
+/* Teal color (used for headings and backgrounds): #4aaaa5*/
+
+button,
+.background-teal {
+  /* background-color: #4aaaa5; */
+  background: linear-gradient(to right, #005587 0%, #8BB8E8 100%)
+}
+
+button,
+.text-white,
+footer {
+  color: white;
+}
+.text-silver {
+  color: silver;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+
+/*Regular font color (used for paragraphs and all text besides the headings): #777777*/
+
+a,
+p,
+div, i,.fa, a {
+  color: #777777;
+}
+
+/*Fonts:
+
+        For heading fonts use font-family: 'Georgia', Times, 'Times New Roman', serif;
+
+        For all other fonts use 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+        */
+
+h1,
+h2 {
+  font-family: "Georgia", Times, "Times New Roman", serif;
+}
+
+h1 {
+  /*Reduce the font size to fit my long name on one row*/
+  font-size: 2rem;
+}
+
+
+
+h2,
+.text-blue {
+  color: #2774AE;
+
+  /* background: linear-gradient(to right, #005587 0%, #8BB8E8 100%) */
+  /*Reduce the font size to be smaller than h1.*/
+  font-size: 1.8rem;
+}
+
+
+
+a,
+p,
+div,
+button {
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+a {
+  /*Remove the underline from the hyperlinks*/
+  text-decoration: none;
+}
+button {
+  /*All buttons to be formatted like this*/
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+img {
+  float: left;
+  width: 100%;
+  height: 100%;
+  
+}
+
+.index-picture-1-section {
+  position: relative;
+  line-height: 1.8;
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+p {
+  padding: 0px 20px 0px 20px;
+}
+
+/*Specific to the Contact Page*/
+
+input {
+  width: 100%;
+  line-height: 2;
+  border: solid 1px #777777;
+}
+
+#contact-row {
+  background: url(../images/white-waves/white-waves.png) repeat top left;
+  height: inherit;
+}
+#content-contact {
+  color: white;
+  background-color: white;
+  margin: 10px 8.33% 174px 8.33%;
+  height: 60vh;
+  position: relative;
+  padding: 10px;
+  /*Main content border color: #dddddd*/
+  border: solid #dddddd;
+  border-width: 1px 1px 1px 1px;
+  height: fit-content;
+}
+
+#content-form {
+  color: white;
+  background-color: white;
+  margin: 10px 8.33% 10px 8.33%;
+  height: 100%;
+  position: relative;
+  padding-top: 10px;
+  /*Main content border color: #dddddd*/
+  border: solid #dddddd;
+  border-width: 1px 1px 1px 1px;
+}
+
+#content-message {
+  height: 100px;
+  width: 100%;
+  border: solid 1px #777777;
+}
+
+.content-submit-button {
+  background-color: #4aaaa5;
+  padding: 10px 20px 10px 20px;
+}
+
+/*Specific to the Portfolio page*/
+
+#portfolio-picture-container {
+  color: white;
+  background-color: white;
+  margin: 10px 0px 50px 0px;
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /*Main content border color: #dddddd*/
+  border: solid #dddddd;
+  border-width: 1px 1px 1px 1px;
+  height: 80%;
+}
+
+.img-portfolio {
+  /*Images on the portfolio page are different than others*/
+  float: left;
+  width: 100%;
+  height: 100%;
+  border: solid white 5px;
+}
+#picture-1-section {
+  position: relative;
+  width: 300px;
+  height: 200px;
+}
+
+.centered {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  border-left: solid white 5px;
+  border-right: solid white 5px;
+}
+
+#portfolio-picture-label1 {
+  height: 40px;
+  background-color: #FFD100;
+  width: 100%;
+  text-align: center;
+  padding-top: 8px;
+}
+
+#content-portfolio-row {
+  background: url(../images/white-waves/white-waves.png) repeat top left;
+  margin-bottom: 5px;
+  height: auto;
+}
+
+.no-padding {
+  padding: 0px 0px 0px 0px;
+}
+
+.padding-5 {
+  padding: 0px 0px 5px 0px;
+}
+.col-md-6,
+.col-md-1 {
+  padding: 0;
+}
+
+
+.blue-gradient {
+
+  background: linear-gradient(to right, #2774AE 0%, #8BB8E8 100%);
+}
+
+.text-ucla-blue{
+
+  color: #2774AE;
+}
+
+h5{
+
+  color:#2774AE;
+}
+
+
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
