@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.26acdd1c.chunk.css",
+    "main.js": "/static/js/main.42f97203.chunk.js",
+    "main.js.map": "/static/js/main.42f97203.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.18bbefb9.js",
+    "runtime-main.js.map": "/static/js/runtime-main.18bbefb9.js.map",
+    "static/css/2.afd40c00.chunk.css": "/static/css/2.afd40c00.chunk.css",
+    "static/js/2.0dfe1980.chunk.js": "/static/js/2.0dfe1980.chunk.js",
+    "static/js/2.0dfe1980.chunk.js.map": "/static/js/2.0dfe1980.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.acf79234877717e695207bd262842697.js": "/precache-manifest.acf79234877717e695207bd262842697.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.afd40c00.chunk.css.map": "/static/css/2.afd40c00.chunk.css.map",
+    "static/css/main.26acdd1c.chunk.css.map": "/static/css/main.26acdd1c.chunk.css.map",
+    "static/js/2.0dfe1980.chunk.js.LICENSE.txt": "/static/js/2.0dfe1980.chunk.js.LICENSE.txt",
+    "static/media/CodeQuiz.png": "/static/media/CodeQuiz.31ea663f.png",
+    "static/media/PasswordGenerator.png": "/static/media/PasswordGenerator.6f26b05b.png",
+    "static/media/TheNewsStand.png": "/static/media/TheNewsStand.dc9e562e.png",
+    "static/media/TrackSnax.png": "/static/media/TrackSnax.e625ad3a.png",
+    "static/media/WeatherDashboard.png": "/static/media/WeatherDashboard.c760d9ba.png",
+    "static/media/parallax.css": "/static/media/luke-chesser-hQo6Uyo4nBg-unsplash.0ddccb15.jpg",
+    "static/media/mlfiii.jpeg": "/static/media/mlfiii.01f7d1e1.jpeg",
+    "static/media/style.css": "/static/media/white-waves.a06a3248.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.18bbefb9.js",
+    "static/css/2.afd40c00.chunk.css",
+    "static/js/2.0dfe1980.chunk.js",
+    "static/css/main.26acdd1c.chunk.css",
+    "static/js/main.42f97203.chunk.js"
+  ]
+}
