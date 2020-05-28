@@ -20,7 +20,7 @@ let styles = {
 
 const Home = (props) => {
   return (
-    <>
+    <div>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top clearfix d-flex justify-content-center"
         id="main-menu-bar">
         <button className="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
@@ -247,7 +247,7 @@ const Home = (props) => {
           <div className="col-md-1"></div>
         </div>
       </div>
-    </>
+    </div>
 
   )
 }
