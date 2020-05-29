@@ -53,7 +53,8 @@ const Home = (props) => {
 
           <div className="col-md-1"></div>
           <div className="col-md-5 index-picture-1-section">
-            <img src={mlfiii} className="img-fluid" alt="Place Holder" />
+            <a href="https://www.funches.org" target="_blank"
+              rel="noopener noreferrer"> <img src={mlfiii} className="img-fluid" alt="Place Holder" /> </a>
             <p className="text-justify">
               Hello and welcome! Thank you for visiting my portfolio.
                 </p>
