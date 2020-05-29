@@ -15,7 +15,7 @@ import weatherdashboard from '../../assets/images/WeatherDashboard.png'
 
 let styles = {
   margin: 'auto',
-  width: '480px'
+  width: '400px'
 };
 
 const Home = (props) => {
